@@ -1,0 +1,21 @@
+{
+  "name": "pa",
+  "version": "1.0.0",
+  "description": "Pá Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Nic",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "got": "^11.8.2",
+    "graphql": "^15.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
